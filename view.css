@@ -1,0 +1,24 @@
+.mainPart{
+    background-color: #2171b5;
+    color: black;
+    font-family: "Impact", Charcoal, sans-serif;
+    text-align: center;
+}
+
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input
+{
+    width: 25%;
+    border: 3px solid black;
+}
