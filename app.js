@@ -1,5 +1,7 @@
+(function () {
 var app=angular.module("module1App", []);
-app.controller("Controller", function($scope){
+app.controller("Controller", ['$scope', Controller]);
+function Controller($scope){
     $scope.list="";
     $scope.Answer="";
     $scope.total;
@@ -39,4 +41,6 @@ app.controller("Controller", function($scope){
 
         }
     };
-});
+}
+
+})();
